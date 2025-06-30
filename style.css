@@ -1,0 +1,53 @@
+body{
+    background-color: burlywood;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 20px;
+    color: black
+}
+.box {
+    flex:0 0 300px;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    text-decoration: rgb(31, 50, 66);
+    max-width: 600px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+     display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .box:hover {
+        background-color: lightgray;
+        transform: scale(1.02);
+    }
+    .flashy-text {
+    color:black;
+  font-size: 30px;
+  padding: 20px;
+  background: linear-gradient(270deg, brown, burlywood);
+  background-size: 400% 400%;
+  border-radius: 8px;
+  animation: shake 0.3s infinite, bgMove 5s ease infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  25% { transform: translate(-1px, 2px) rotate(-1deg); }
+  50% { transform: translate(-3px, 0px) rotate(1deg); }
+  75% { transform: translate(1px, -1px) rotate(1deg); }
+  100% { transform: translate(1px, 2px) rotate(0deg); }
+}
+
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
