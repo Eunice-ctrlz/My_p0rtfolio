@@ -3,7 +3,7 @@ This is my personal portfolio website, designed to showcase my web development p
 
 ## Live Website
 visit my portfolio
-https://github.com/Eunice-ctrlz/My_p0rtfolio
+https://eunice-ctrlz.github.io/My_p0rtfolio/
 
 
 
