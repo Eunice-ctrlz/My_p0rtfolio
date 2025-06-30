@@ -21,7 +21,6 @@ https://github.com/Eunice-ctrlz/My_p0rtfolio
 - CSS
 - GitHub Pages for hosting  
 
-## How to Use
-
-1. Clone the repository:
+## Author
+Eunice Muturi
 
