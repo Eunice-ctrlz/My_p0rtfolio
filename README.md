@@ -22,5 +22,5 @@ https://eunice-ctrlz.github.io/My_p0rtfolio/
 - GitHub Pages for hosting  
 
 ## Author
-Eunice Muturi
+Eunice Muturi.
 
